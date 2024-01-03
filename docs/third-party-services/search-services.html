@@ -9,14 +9,14 @@
 <p>{% tabs algolia-search %}</p>
 <!-- tab Registration → -->
 <p>Register at <a href="https://www.algolia.com/">Algolia</a>, you can log in directly using GitHub or Google Account. Upon Customer’s initial sign-up for an Account, Customer will have a free, fourteen (14) day evaluation period (the «Evaluation Period») for the Algolia Services commencing on the Effective Date, subject to the limitations on Algolia’s website. After that, Algolia offers a free, branded version for up to 10k records and 100k operations per month.</p>
-<p>If a tutorial pops up, you can skip it. Go straight to create an <code>Index</code> which will be used later.<br><img src="/index.html/images/algolia-1.png" alt="Algolia Create Index"></p>
+<p>If a tutorial pops up, you can skip it. Go straight to create an <code>Index</code> which will be used later.<br><img src="/images/algolia-1.png" alt="Algolia Create Index"></p>
 <!-- endtab -->
 
 <!-- tab Algolia Config → -->
 <ol>
-<li><p>Go to the <code>API Keys</code> page and find your credentials. You will need the <code>Application ID</code> and the <code>Search-only API key</code> in the following sections. The <code>Admin API key</code> need to keep confidential. Never store your Admin API Key as <code>apiKey</code> in {% label info@Hexo config file %}: it would give full control of your Algolia index to others and you don’t want to face the consequences.<br><img src="/index.html/images/algolia-2.png" alt="Algolia API Keys"></p>
+<li><p>Go to the <code>API Keys</code> page and find your credentials. You will need the <code>Application ID</code> and the <code>Search-only API key</code> in the following sections. The <code>Admin API key</code> need to keep confidential. Never store your Admin API Key as <code>apiKey</code> in {% label info@Hexo config file %}: it would give full control of your Algolia index to others and you don’t want to face the consequences.<br><img src="/images/algolia-2.png" alt="Algolia API Keys"></p>
 </li>
-<li><p>In the <code>API Keys</code> page, click the <code>All API Keys</code> button to switch to the corresponding tab. Then click the <code>New API Key</code> button to activate a pop-up box where you can setup authorizations and restrictions with a great level of precision. Enter <code>addObject</code>, <code>deleteObject</code>, <code>listIndexes</code>, <code>deleteIndex</code> features in ACL permissions that will be allowed for the given API key. And then click the <code>Create</code> button. Copy this newly created key to the clipboard, we call it a <code>High-privilege API key</code>.<br><img src="/index.html/images/algolia-3.png" alt="Algolia API Keys 2"><br><img src="/index.html/images/algolia-4.png" alt="Algolia Configuring Records"></p>
+<li><p>In the <code>API Keys</code> page, click the <code>All API Keys</code> button to switch to the corresponding tab. Then click the <code>New API Key</code> button to activate a pop-up box where you can setup authorizations and restrictions with a great level of precision. Enter <code>addObject</code>, <code>deleteObject</code>, <code>listIndexes</code>, <code>deleteIndex</code> features in ACL permissions that will be allowed for the given API key. And then click the <code>Create</code> button. Copy this newly created key to the clipboard, we call it a <code>High-privilege API key</code>.<br><img src="/images/algolia-3.png" alt="Algolia API Keys 2"><br><img src="/images/algolia-4.png" alt="Algolia Configuring Records"></p>
 <!-- endtab --></li>
 </ol>
 <!-- tab Algolia Plugin → -->
@@ -39,7 +39,7 @@ $ npm install hexo-algolia
 $ hexo clean
 $ hexo algolia
 </code></pre>
-<p><img src="/index.html/images/algolia-5.png" alt="Reload Index"></p>
+<p><img src="/images/algolia-5.png" alt="Reload Index"></p>
 <!-- endtab -->
 <!-- tab Hexo Algoliasearch -->
 <p>Install and configure <a href="https://github.com/LouisBarranqueiro/hexo-algoliasearch">Hexo Algoliasearch</a> in your Hexo directory.</p>
