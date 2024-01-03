@@ -9,12 +9,12 @@
 <li>Automatic deployment, simultaneous deployment to multiple locations</li>
 </ul>
 <h4 id="Cloudflare-Pages"><a href="#Cloudflare-Pages" class="headerlink" title="Cloudflare Pages"></a>Cloudflare Pages</h4><p><a href="https://pages.cloudflare.com/">Cloudflare Pages</a> is a JAMstack platform for frontend developers to collaborate and deploy websites. You can connect your GitHub or GitLab account with Cloudflare Pages. After that, you just need to push your blog source code to the repository, and create a new project in Cloudflare Pages. In the project’s settings, you can configure the build settings as shown below.</p>
-<p><img src="/images/cloudflare-pages.png" alt="Cloudflare Pages"></p>
+<p><img src="/index.html/images/cloudflare-pages.png" alt="Cloudflare Pages"></p>
 <p>Cloudflare Pages will automatically build and deploy your site.</p>
 <h4 id="Netlify"><a href="#Netlify" class="headerlink" title="Netlify"></a>Netlify</h4><p><a href="https://www.netlify.com/">Netlify</a> is an all-in-one platform for automating modern web projects. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow. Integrate dynamic functionality like serverless functions, user authentication, and form handling as your projects grow.</p>
 <p>Perhaps you have already found that this website is deployed on Netlify. Checkout <code>deploy.sh</code> and <code>netlify.toml</code> in <a href="https://github.com/next-theme/theme-next-docs">theme-next-docs</a> repository for more information.</p>
 <h4 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h4><p>To publish your Hexo site on Github Pages, you need create a GitHub repository and push your local repository to it. Visit your GitHub repository, from the main menu choose Settings &gt; Pages. In then center of your screen you will see this option:</p>
-<p><img src="/images/github-pages.png"></p>
+<p><img src="/index.html/images/github-pages.png"></p>
 <p>Change the Source to GitHub Actions. The change is immediate; you do not have to press a Save button.</p>
 <p>Create an empty file <code>.github/workflows/hexo.yaml</code> in your local repository. Copy and paste the YAML below into the file you created. Change the branch name and other parameters as needed.</p>
 <pre><code class="yml"># Sample workflow for building and deploying a Hexo site to GitHub Pages
